@@ -8,7 +8,7 @@ function Home ()  {
         <div className={styled.homeWrapper}>
             <Header title= 'develoepr'/>
             <div className="container">
-                <h2>home</h2>
+                <h2 style={{marginBottom: "20px"}}>home</h2>
 
                 <div className={styled.articles}>
             <Article />
