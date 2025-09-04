@@ -1,9 +1,9 @@
-
+import styled from './Footer.module.css';
 
 const Footer = () => {
     return (
         <div>
-            <h1 style={{backgroundColor: "blue" }}>
+            <h1 className={styled.footer}>
                 this is for footer
             </h1>
         </div>

@@ -1,9 +1,9 @@
-import "./Header.css"
+import styled from "./Header.module.css";
 
 function Header() {
     return (
         <div>
-            <h1 className="header">this is header </h1>
+            <h1 className={styled.header}>this is header </h1>
 
             {/* <ul style={{listStyleType: "none" , display: "flex", justifyContent: "center", gap: "20px", backgroundColor: "gray"}}> */}
                <ul>
