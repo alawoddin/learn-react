@@ -1,12 +1,15 @@
 // import Footer from "./components/footer/Footer";
-import Header from "./components/header/Header";
+// import Header from "./components/header/Header";
+import Home from "./pages/home/Home";
 
 function App() {
   return (
     <div className="App">
 
+      <Home/>
+{/* 
     <Header title='developer' name='frontend' />
-    <Header title='react-developer'/>
+    <Header title='react-developer'/> */}
 
       {/* <Header title='alawoddin' />
       <Header title='developer' /> */}
