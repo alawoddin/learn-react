@@ -4,7 +4,12 @@ import Header from "./components/header/Header";
 function App() {
   return (
     <div className="App">
-      <Header />
+
+    <Header title='developer' name='frontend' />
+    <Header title='react-developer'/>
+
+      {/* <Header title='alawoddin' />
+      <Header title='developer' /> */}
       {/* <Footer /> */}
       {/* <Navber /> */}
       {/* <Header />
