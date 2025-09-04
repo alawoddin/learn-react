@@ -1,12 +1,16 @@
+.headerWrappper {
+
+    box-shadow: 0px 1px 10px black;
+}
+
+
 .header {
     text-align: center;
-    box-shadow: 0px 1px 10px black;
     height: 80px;
     display: flex;
     justify-content: end;
     align-items: center;
     flex-direction: row-reverse;
-    padding: 0px 40px;
 }
 
 .header ul {

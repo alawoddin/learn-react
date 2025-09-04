@@ -6,8 +6,9 @@ function Header(props) {
         // let title = 'logo';
 
     return (
-
-        <div className={styled.header}>
+        <div className={styled.headerWrappper}>
+             <div className='container'>
+             <div className={styled.header}>
 
             {/* <h1>{title}</h1> */}
             {/* <h1>{props.title}</h1> */}
@@ -22,6 +23,11 @@ function Header(props) {
                 <li>Contact</li>
             </ul>
         </div>
+        </div>
+        </div>
+       
+
+       
     )
 }
 
