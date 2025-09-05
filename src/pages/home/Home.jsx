@@ -6,9 +6,9 @@ import styled from './home.module.css';
 function Home ()  {
     return (
         <div className={styled.homeWrapper}>
-            <Header title= 'develoepr'/>
+            <Header title= 'لوک'/>
             <div className="container">
-                <h2 style={{marginBottom: "20px"}}>home</h2>
+                <h2 style={{marginBottom: "20px"}}>روزنامه</h2>
 
                 <div className={styled.articles}>
             <Article />

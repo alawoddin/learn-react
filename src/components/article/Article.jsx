@@ -5,8 +5,8 @@ function Article() {
     return (
         <div className={styled.articleWrapper}>
             <img className={styled.image} src={image} alt="" />
-            <h3>what variable</h3>
-            <p>we ready in 5 min</p>
+            <h3>متغیر ها </h3>
+            <p>تدریس متغیر ها </p>
         </div>
     )
 }

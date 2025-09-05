@@ -18,9 +18,9 @@ function Header(props) {
 
             {/* <ul style={{listStyleType: "none" , display: "flex", justifyContent: "center", gap: "20px", backgroundColor: "gray"}}> */}
                <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li>خانه</li>
+                <li>درباره ما</li>
+                <li>تماس با ما</li>
             </ul>
         </div>
         </div>
