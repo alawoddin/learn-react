@@ -1,0 +1,21 @@
+{
+  "articles": {
+    "status": true,
+    "message": "success",
+    "data": [
+      {
+        "id": 1,
+        "imageUrl": "",
+        "title": "this for demo",
+        "read": "we study in 5 min"
+      },
+       {
+        "id": 2,
+        "imageUrl": "",
+        "title": "this for demo1",
+        "read": "we study in 6 min"
+      }
+    ]
+  }
+}
+
