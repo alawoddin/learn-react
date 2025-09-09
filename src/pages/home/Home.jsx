@@ -8,22 +8,29 @@ function Home ()  {
     let articles = [
         {
             id:1,
-            imageUrl: "",
-            title: "demo",
+            // imageUrl: "https://www.w3schools.com/css/ocean.jpg",
+            title: "متغیر جی است ",
             readingTime: 5,
         },
 
         {
             id:2,
-            imageUrl: "",
-            title: "demmo1",
+            // imageUrl: "https://ik.imagekit.io/ikmedia/backlit.jpg",
+            title: "عنوان اول",
             readingTime: 10,
         },
            {
             id:3,
-            imageUrl: "",
-            title: "demo2",
-            readingTime: 10,
+            // imageUrl: "https://reshaped.so/img/examples/image-retina.webp",
+            title: "تابع جی است ",
+            readingTime: 8,
+        },
+
+            {
+            id:4,
+            // imageUrl: "https://reshaped.so/img/examples/image-retina.webp",
+            title: "در حال تغبر ",
+            readingTime: 6,
         }
     ]
 
@@ -38,7 +45,7 @@ function Home ()  {
 
                     {
                         articles.map(article =>(
-                             <Article />
+                             <Article key={article.id} article={article} />
                             
                         ))
                     }
