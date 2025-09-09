@@ -4,6 +4,30 @@ import styled from './home.module.css';
 
 
 function Home ()  {
+
+    let articles = [
+        {
+            id:1,
+            imageUrl: "",
+            title: "demo",
+            readingTime: 5,
+        },
+
+        {
+            id:2,
+            imageUrl: "",
+            title: "demmo1",
+            readingTime: 10,
+        },
+           {
+            id:3,
+            imageUrl: "",
+            title: "demo2",
+            readingTime: 10,
+        }
+    ]
+
+
     return (
         <div className={styled.homeWrapper}>
             <Header title= 'لوک'/>
@@ -11,14 +35,20 @@ function Home ()  {
                 <h2 style={{marginBottom: "20px"}}>روزنامه</h2>
 
                 <div className={styled.articles}>
+
+                    {
+                        articles.map(article =>(
+                             <Article />
+                            
+                        ))
+                    }
+            {/* <Article />
             <Article />
             <Article />
             <Article />
             <Article />
             <Article />
-            <Article />
-            <Article />
-            <Article />
+            <Article /> */}
 
                 </div>
 
